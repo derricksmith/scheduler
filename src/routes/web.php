@@ -4,7 +4,7 @@ $name = config('scheduler.name');
 
 Route::group([
     'prefix' => config('scheduler.url'),
-    'namespace' => 'MatviiB\\Scheduler\\Controllers',
+    'namespace' => 'Matviib\\Scheduler\\Controllers',
     'middleware' => config('scheduler.middleware')
 ], function () use ($name) {
 
