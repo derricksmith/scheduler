@@ -1,11 +1,11 @@
 <?php
 
-namespace MatviiB\Scheduler\Console;
+namespace Matviib\Scheduler\Console;
 
 use App\Console\CronTasksList;
 use Carbon\Carbon;
 use Illuminate\Console\Scheduling\Schedule;
-use MatviiB\Scheduler\Scheduler;
+use Matviib\Scheduler\Scheduler;
 use Schema;
 
 class Kernel
