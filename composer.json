@@ -19,13 +19,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "MatviiB\\Scheduler\\": "src/"
+      "Matviib\\Scheduler\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "MatviiB\\Scheduler\\SchedulerServiceProvider"
+        "Matviib\\Scheduler\\SchedulerServiceProvider"
       ]
     }
   },
