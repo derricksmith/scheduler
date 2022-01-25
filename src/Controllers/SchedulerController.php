@@ -1,13 +1,13 @@
 <?php
 
-namespace MatviiB\Scheduler\Controllers;
+namespace Matviib\Scheduler\Controllers;
 
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
-use MatviiB\Scheduler\Monitor;
-use MatviiB\Scheduler\Scheduler;
+use Matviib\Scheduler\Monitor;
+use Matviib\Scheduler\Scheduler;
 
 class SchedulerController extends Controller
 {
