@@ -1,6 +1,6 @@
 <?php
 
-namespace MatviiB\Scheduler;
+namespace Matviib\Scheduler;
 
 use Illuminate\Support\ServiceProvider;
 
