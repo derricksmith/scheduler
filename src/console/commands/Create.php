@@ -1,11 +1,11 @@
 <?php
 
-namespace MatviiB\Scheduler\Console\Commands;
+namespace Matviib\Scheduler\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Schema;
-use MatviiB\Scheduler\Monitor;
-use MatviiB\Scheduler\Scheduler;
+use Matviib\Scheduler\Monitor;
+use Matviib\Scheduler\Scheduler;
 
 class Create extends Command
 {
