@@ -1,9 +1,9 @@
 <?php
 
-namespace MatviiB\Scheduler\Console\Commands;
+namespace Matviib\Scheduler\Console\Commands;
 
 use Illuminate\Console\Command;
-use MatviiB\Scheduler\Monitor;
+use Matviib\Scheduler\Monitor;
 use Schema;
 
 class Show extends Command
